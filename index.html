@@ -862,5 +862,17 @@ function App(){
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
 </script>
+<script>
+if(window.self !== window.top){
+  document.addEventListener("click", function(e){
+    e.stopPropagation();
+  }, true);
+  document.body.style.overflow = "hidden";
+  window.addEventListener("scroll", function(e){
+    e.preventDefault();
+    e.stopPropagation();
+  }, {passive:false});
+}
+</script>
 </body>
 </html>
