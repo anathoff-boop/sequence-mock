@@ -35,30 +35,29 @@ const C = {
 
 /* ── Figma image assets ── */
 /* Side nav icons — node 12486:13946 */
-const NAV_FLOW   = "https://www.figma.com/api/mcp/asset/c0034ec4-7b83-49e3-9b3c-4834ef4ead14";
-const NAV_LIST   = "https://www.figma.com/api/mcp/asset/5d9ff8e4-4b7d-4771-83db-a0faa008d69f";
-const NAV_ROUTE  = "https://www.figma.com/api/mcp/asset/56cc1aaf-85d7-4f09-9f17-d85f52ffc85f";
-const NAV_ARROWS = "https://www.figma.com/api/mcp/asset/fb9d9f38-8d1e-49db-9bcb-9412b99328de";
-const NAV_CARD   = "https://www.figma.com/api/mcp/asset/98ca282f-7975-4716-9929-eee470a98f39";
-const NAV_AI     = "https://www.figma.com/api/mcp/asset/e846c458-346a-4210-9f08-4e377b6084f2";
-const NAV_GEAR   = "https://www.figma.com/api/mcp/asset/fb8e5173-438c-4ca1-8645-eaff76db0a30";
-const NAV_OPEN   = "https://www.figma.com/api/mcp/asset/9161a80e-56cf-4d99-aa4f-86dcef7730e8";
+const NAV_FLOW   = "nav-flow.svg";
+const NAV_LIST   = "nav-list.svg";
+const NAV_ROUTE  = "nav-route.svg";
+const NAV_ARROWS = "nav-arrows.svg";
+const NAV_CARD   = "nav-card.svg";
+const NAV_AI     = "nav-ai.svg";
+const NAV_GEAR   = "nav-gear.svg";
+const NAV_OPEN   = "nav-open.svg";
 /* Top bar icons — node 12486:13945 */
-const TOP_SEARCH = "https://www.figma.com/api/mcp/asset/b7ed336b-3c6e-4b55-9427-9fd4746180d0";
-const TOP_GIFT   = "https://www.figma.com/api/mcp/asset/e3a3e433-7c47-41b2-87f6-5b0bf5734c89";
-const TOP_HELP   = "https://www.figma.com/api/mcp/asset/c0e74cc5-15a2-428d-b8c1-2427b69eceaa";
-const TOP_PLANE  = "https://www.figma.com/api/mcp/asset/cde2f068-6377-456b-b2f2-92ad1c6d86cb";
+const TOP_SEARCH = "top-search.svg";
+const TOP_GIFT   = "top-gift.svg";
+const TOP_HELP   = "top-help.svg";
+const TOP_PLANE  = "top-plane.svg";
 /* Command bar icons — node 12486:13984 */
-const CB_PLUS    = "https://www.figma.com/api/mcp/asset/ab97efbf-bdf0-4cab-ac26-6d00d0dea62e";
-const CB_MAGNET  = "https://www.figma.com/api/mcp/asset/cc2d5938-756c-4366-85ec-17c594a9b689";
-const CB_MINUS   = "https://www.figma.com/api/mcp/asset/c9ab4e1d-c8ae-4c66-9181-bed7e6a7d27c";
-const CB_PLUSZ   = "https://www.figma.com/api/mcp/asset/7d37f3cb-81c7-4906-882d-a25231ce9e2c";
-const CB_FIT     = "https://www.figma.com/api/mcp/asset/104374c4-401f-47ef-9b58-18851730f3a7";
-const CB_BRANCH  = "https://www.figma.com/api/mcp/asset/5cf44a77-7f73-4a6f-8c26-38952feda821";
-const CB_SPARKLE = "https://www.figma.com/api/mcp/asset/0c9b223d-6aa9-4c1d-b281-936a38ed53e7";
-const CB_AUTO    = "https://www.figma.com/api/mcp/asset/7fb08556-2658-4528-bce6-70101e0323d6";
+const CB_PLUS    = "cb-plus.svg";
+const CB_MAGNET  = "cb-magnet.svg";
+const CB_MINUS   = "cb-minus.svg";
+const CB_PLUSZ   = "cb-plusz.svg";
+const CB_FIT     = "cb-fit.svg";
+const CB_BRANCH  = "cb-branch.svg";
+const CB_SPARKLE = "cb-sparkle.svg";
+const CB_AUTO    = "cb-auto.svg";
 /* Node bank icon — node 12486:14330 */
-const NODE_BANK  = "https://www.figma.com/api/mcp/asset/10e406d0-7d42-4600-adec-a7b8b34562c8";
 
 /* ── FigmaIcon helper — renders asset with exact inset clipping ── */
 function FI({src, cw, ch, inset, style}){
@@ -72,10 +71,10 @@ function FI({src, cw, ch, inset, style}){
 }
 
 /* ── Pod icon assets (from Figma node 14334:3090) ── */
-const ICON_EMERGENCY = "https://www.figma.com/api/mcp/asset/5aaa14e9-a41c-4241-9e0b-99f627963d27"; // lifebuoy / ring
-const ICON_TAXES     = "https://www.figma.com/api/mcp/asset/7ec08c25-8868-4f9c-b023-9809d8acea86"; // money bag
-const ICON_OWNERS    = "https://www.figma.com/api/mcp/asset/5aaa14e9-a41c-4241-9e0b-99f627963d27"; // ring (owner's pay ring icon)
-const ICON_OPS       = "https://www.figma.com/api/mcp/asset/15d8091c-45d5-48b8-8ac2-7e4643a8c7ef"; // money wings
+const ICON_EMERGENCY = "icon-emergency.png"; // lifebuoy / ring
+const ICON_TAXES     = "icon-taxes.png"; // money bag
+const ICON_OWNERS    = "icon-owners.png"; // ring (owner's pay ring icon)
+const ICON_OPS       = "icon-ops.png"; // money wings
 
 /* ── Goal data ── */
 const GOALS = [
@@ -138,7 +137,7 @@ const GOALS = [
 ];
 
 /* ── Node + Bank icon (fresh URL) ── */
-const NODE_BANK_FRESH = "https://www.figma.com/api/mcp/asset/59d5f3da-a043-43e3-9629-f35036ab4345";
+const NODE_BANK_FRESH = "node-bank.png";
 
 /* ── Map node ── */
 // Pod nodes always use blue pod style from Figma: #dae4ff bg, #4e56e6 border
