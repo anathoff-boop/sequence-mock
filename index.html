@@ -62,10 +62,8 @@ const CB_AUTO    = "cb-auto.svg";
 /* ── FigmaIcon helper — renders asset with exact inset clipping ── */
 function FI({src, cw, ch, inset, style}){
   return (
-    <div style={{position:"relative",width:cw,height:ch,overflow:"hidden",flexShrink:0,...style}}>
-      <div style={{position:"absolute",inset}}>
-        <img src={src} alt="" style={{position:"absolute",inset:0,width:"100%",height:"100%",display:"block"}}/>
-      </div>
+    <div style={{width:cw,height:ch,flexShrink:0,...style}}>
+      <img src={src} alt="" style={{width:"100%",height:"100%",objectFit:"contain",display:"block"}}/>
     </div>
   );
 }
